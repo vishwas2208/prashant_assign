@@ -1,15 +1,18 @@
-﻿    1) Prime num -- para1(start) para2(end).
-    2) Check prime for given runtime parameter
-    3) script to list files and directory recursively.
-    4) SQL_MODE temporary &
-hardcode date format for Indian format
-    5) Process list in MySQL --
--Store large amounts of dummy data
--Backup data
--Restore data in new database
--Illustrate running processe list
--Write script that will terminate all processes in MySQL
--Write a script to get a lock for 30 seconds on table/DB and then kill the   	lock using the script.
-                6) ls4l-> standard error->standard output->file.txt
-
-                7) you have two files one of which contains sensitive information and you have oushed it   	         into the remote repository now you have to remove that file from remote repository but 	         not from local using gitignore.
+1) Write a bash script to generate Prime numbers from given parameter1(start) to parameter2(end).
+2) Check whether a parameter given at runtime is Prime number or not.
+3) Write a script to list files and directory recursively.
+4) SQL_MODE - temporary & hardcode date format for Indian format
+5) Process list in MySQL --
+    -Store large amounts of dummy data
+    -Backup data
+    -Restore data in new database
+    -Illustrate running processes list
+    -Write script that will terminate all processes in MySQL
+    -Write a script to get a lock for 30 seconds on table/DB and then kill the lock using the script.
+6) complete the command using redirection(>) such that: ls4l-> standard error->standard output->file.txt
+7) You have two files one of which contains sensitive information and you have pushed it into the remote repository now you have to remove that file from remote repository but not from local directory, by using gitignore.
+8) You have a file with names of packages along with the version. Write a script to install all of them.
+9) write a script that runs at the time of system boot and shutdown, and logs the startup and shutdown time.
+10) Create a bash script  to get netspeed dynamically using:
+    - crontab
+    - systemd (as service start/stop)
