@@ -1,0 +1,30 @@
+1. What is the advantage of using a “reverse proxy server”?
+
+2. Why and where Nginx is a better choice than apache.
+
+3. What are worker nodes and worker connections? How to calculate the max server capacity using the above two?
+
+4. From what directory will NGINX automatically load server (virtual host) configurations when using the default /etc/nginx/nginx.conf configuration?
+
+5. How to configure different log_format for different “location” block/directive?
+
+6. Host a site ABC.COM
+
+    a. Create an index page and a fail-safe page. If a page for URI is not available, the fail-safe page is served.
+
+    b. proxy pass to a website xyz.com on a particular URI.
+
+    c. redirect to above URI on /redirect/
+
+    d. perform an HTTP to HTTPS redirection including non-www to www redirection.
+
+    e. Allow access to a set of particular IPs on a location block and return 405 to other IPs no matter if the page in that location exists.
+
+    f. Place your images at /var/www/html/images. Only accept jpg/png/jpeg. Discard rest
+
+7. Create a load balancer with 5 backends. Explain different types of load balancing methods.
+
+*8. Setup Basic Auth (Popup asking for username and password) in a particular location block. (The Basic Auth should not be asked for TTN IP)
+
+*: Bonus Question and is optional.
+Nginx Assess
