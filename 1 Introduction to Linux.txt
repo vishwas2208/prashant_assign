@@ -1,0 +1,15 @@
+Assignment - Introduction to Linux
+
+1.Create a directory "exercise" inside your home directory and create nested(dir1/dir2/dir3) directory structure inside "excerise" with single command.
+
+2.Create two empty files inside dir2 directory: emptyFile1,emptyFile2 in single command and Remove the dir2 directory
+
+3.Create one file file.txt containing text "hello world" and save it.
+
+4.Find a "passwd" file using find command inside /etc. copy this files as passwd_copy and then rename this file as passwd_backup.
+
+5.Try reading passwd_backup file in multiple tools: less,more,cat,strings etc and find the difference in their usage.
+
+6.Find out the number of line in password_backup containing "/bin/false".
+
+7.Redirect the output of the above commands into file "output".
