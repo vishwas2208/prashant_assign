@@ -1,0 +1,12 @@
+1. Create a file with some content. Change all lower case letters to upper case letter and save output to another file using redirections.
+
+2. Use the find command to display the names of all files and directory in the home that are bigger than 1MB.
+
+3. Write a shell script which renames all .txt files as .text files. 
+Hint: The command basename might help you here.
+
+4. Write a shell script called pidof which takes a name as a parameter and returns the PID(s) of processes with that name. Use it by creating functions.
+
+5. Write a shell script that given a person's uid, tells you how many times that person is logged on.
+
+6. Write a shell script that takes a uid as an argument and prints out that person's name, home directory, shell and group number. Print out the name of the group corresponding to the group number, and other groups that person may belong to. (groups, awk, cut. Also look at /etc/passwd and /etc/groups).
