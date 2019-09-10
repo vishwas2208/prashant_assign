@@ -1,0 +1,19 @@
+Problem Statement: There can be multiple customers, who can place multiple orders on the site. Now a salesperson can handle these orders will distribute into multiple salespersons (One order will be assigned to one salesperson only). So a salesperson can have multiple orders of multiple customers.
+
+1. Create Database
+
+2. Design Schema 
+
+3. Create tables 
+
+4. Insert sample data 
+
+5. Find the salesperson have multiple orders. 
+
+6. Find all salesperson details along with order details
+
+7. Create an index
+
+8. How to show index on a table
+
+9. Find the order number, sale person name, along with the customer to whom that order belongs to.
