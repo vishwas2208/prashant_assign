@@ -1,0 +1,23 @@
+8.Create a "test" user,create its password and find out its uid and gid.
+
+9.Login as test user and edit the "output" file created above. Since the permission wont allow you to save the changes.
+
+10. Configure such that test user can edit it.
+a. Add group owner of the "output" file as the secondary group of testuser and check/change the "output" file
+b. Make the file editable to the world so that test user can access it. Revert the changes after verification
+c. Change the ownership to edit the file.
+Try all the options and recommend best of them.
+
+11.Create alias with your name so that it creates a file as "/tmp/aliastesting".
+
+12. Edit ~/.bashrc file such that when you change to "test" user it should clear the screen and print "Welcome".
+
+13.Install zip package.
+
+14.Compress "output" and "password_backup" files into a tar ball. List the files present inside the tar created.
+
+15. scp this file to test user
+
+16. Unzip this tar bar by logging into the remote server.
+
+17. Download any image from web and move to desktop
